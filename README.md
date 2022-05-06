@@ -1,6 +1,6 @@
-# <PROJECT_NAME>
+# Ape Notebook
 
-TODO: Description
+Instantiate a Jupyter Notebook with Ape!
 
 ## Dependencies
 
@@ -13,7 +13,7 @@ TODO: Description
 You can install the latest release via [`pip`](https://pypi.org/project/pip/):
 
 ```bash
-pip install <PYPI_NAME>
+pip install ape-notebook
 ```
 
 ### via `setuptools`
@@ -21,14 +21,14 @@ pip install <PYPI_NAME>
 You can clone the repository and use [`setuptools`](https://github.com/pypa/setuptools) for the most up-to-date version:
 
 ```bash
-git clone https://github.com/ApeWorX/<PYPI_NAME>.git
-cd <PYPI_NAME>
+git clone https://github.com/ApeWorX/ape-notebook.git
+cd ape-notebook
 python3 setup.py install
 ```
 
 ## Quick Usage
 
-TODO: Describe library overview in code
+
 
 ## Development
 

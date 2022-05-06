@@ -42,10 +42,10 @@ with open("./README.md") as readme:
 
 
 setup(
-    name="<PYPI_NAME>",
+    name="ape-notebook",
     use_scm_version=True,
     setup_requires=["setuptools_scm"],
-    description="""<PYPI_NAME>: <SHORT_DESCRIPTION>""",
+    description="""ape-notebook: Instantiate a Jupyter Notebook""",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="ApeWorX Ltd.",
@@ -54,15 +54,19 @@ setup(
     include_package_data=True,
     install_requires=[
         "importlib-metadata ; python_version<'3.8'",
+        "notebook>=6.4.11",
+        "click>=8.1.0",
+        "eth-ape>=0.2.2,<0.3.0"
     ],  # NOTE: Add 3rd party libraries here
+    entry_points={"ape_cli_subcommands": ["ape_notebook=ape_notebook._cli:cli"]},
     python_requires=">=3.7,<4",
     extras_require=extras_require,
-    py_modules=["<MODULE_NAME>"],
+    py_modules=["ape_notebook"],
     license="Apache-2.0",
     zip_safe=False,
     keywords="ethereum",
     packages=find_packages(exclude=["tests", "tests.*"]),
-    package_data={"<MODULE_NAME>": ["py.typed"]},
+    package_data={"ape_notebook": ["py.typed"]},
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
