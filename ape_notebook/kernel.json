@@ -1,0 +1,3 @@
+{"argv":["python","-m","apekernel", "-f", "{connection_file}"],
+ "display_name":"Ape"
+}
