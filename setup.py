@@ -50,15 +50,19 @@ setup(
     long_description_content_type="text/markdown",
     author="ApeWorX Ltd.",
     author_email="admin@apeworx.io",
-    url="https://github.com/ApeWorX/<REPO_NAME>",
+    url="https://github.com/ApeWorX/ape-notebook",
     include_package_data=True,
     install_requires=[
         "importlib-metadata ; python_version<'3.8'",
         "notebook>=6.4.11",
         "click>=8.1.0",
-        "eth-ape>=0.2.2,<0.3.0"
+        "eth-ape>=0.4.0,<0.5.0"
     ],  # NOTE: Add 3rd party libraries here
-    entry_points={"ape_cli_subcommands": ["ape_notebook=ape_notebook._cli:cli"]},
+    entry_points={
+        "ape_cli_subcommands": [
+            "ape_notebook=ape_notebook._cli:cli",
+        ],
+    },
     python_requires=">=3.7,<4",
     extras_require=extras_require,
     py_modules=["ape_notebook"],
