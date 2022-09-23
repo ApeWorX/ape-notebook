@@ -1,4 +1,5 @@
 import click
+
 from notebook import notebookapp as app
 
 
