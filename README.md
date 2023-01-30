@@ -28,6 +28,31 @@ python3 setup.py install
 
 ## Quick Usage
 
+### Install All 3rd Party Packages
+
+```bash
+pip install -e .
+```
+
+### Install Any Ape Plugins
+Just an example, we install infura here
+
+```bash
+ape plugins install infura
+```
+
+### Create Your Ape Kernel
+NOTE: This will be added to the CLI in the future
+
+```bash
+export WEB3_INFURA_PROJECT_ID=<your infura project ID>
+ipython kernel install --name "ape" --user
+```
+
+### Start Up Your Notebook
+```bash
+ape notebook
+```
 
 
 ## Development
