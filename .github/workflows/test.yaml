@@ -77,7 +77,7 @@ jobs:
         run: pip install .[test]
 
       - name: Run Tests
-        run: pytest -m "not fork and not manual and not fuzzing"
+        run: pytest -m "not fuzzing" -n 0 -s --cov
 # NOTE: uncomment this block after you've marked tests with @pytest.mark.fuzzing
 #    fuzzing:
 #        runs-on: ubuntu-latest

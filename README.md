@@ -28,6 +28,9 @@ python3 setup.py install
 
 ## Quick Usage
 
+Runs a notebook server:
+`ape notebook`
+
 ## Development
 
 This project is in development and should be considered a beta.
