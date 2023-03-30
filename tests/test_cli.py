@@ -1,6 +1,6 @@
 """Test the CLI script."""
 import unittest
-from unittest.mock import patch, MagicMock
+from unittest.mock import MagicMock, patch
 
 import click.testing
 
