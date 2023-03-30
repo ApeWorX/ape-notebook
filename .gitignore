@@ -8,6 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+.build/
 build/
 develop-eggs/
 dist/
@@ -117,5 +118,14 @@ dmypy.json
 # setuptools-scm
 version.py
 
+# NPM
+package.json
+package-lock.json
+node_modules/
+
 # Ape stuff
 .build/
+
+**/.DS_Store
+*.swp
+*.swo

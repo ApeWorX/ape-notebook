@@ -59,7 +59,7 @@ setup(
     install_requires=[
         "notebook>=6.5.2",
         "click>=8.1.3",
-        "eth-ape>=0.5.8,<0.6.0",
+        "eth-ape>=0.6.0,<0.7",
     ],
     entry_points={
         "ape_cli_subcommands": [
