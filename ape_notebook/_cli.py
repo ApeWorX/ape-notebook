@@ -1,5 +1,5 @@
 import click
-from notebook.notebookapp import launch_new_instance  # type: ignore
+from notebook.app import launch_new_instance  # type: ignore
 
 
 # %%
