@@ -57,7 +57,7 @@ setup(
     url="https://github.com/ApeWorX/ape-notebook",
     include_package_data=True,
     install_requires=[
-        "notebook>=6.5.4,<7",
+        "notebook>=7.0.0,<8",
         "click>=8.1.3",
         "eth-ape>=0.6.0,<0.7",
     ],

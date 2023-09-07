@@ -29,7 +29,17 @@ python3 setup.py install
 ## Quick Usage
 
 Runs a notebook server:
-`ape notebook`
+
+```bash
+ape notebook
+```
+
+`notebook >=7` has an outstanding issue at launch that can be [resolved](https://github.com/jupyter/notebook/issues/6974#issuecomment-1675394990)
+by running in your environment
+
+```bash
+jupyter lab build
+```
 
 ## Development
 
