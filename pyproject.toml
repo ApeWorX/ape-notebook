@@ -26,7 +26,7 @@ addopts = """
     --cov-report term
     --cov-report html
     --cov-report xml
-    --cov=<MODULE_NAME>
+    --cov=ape_notebook
 """
 python_files = "test_*.py"
 testpaths = "tests"
@@ -40,3 +40,6 @@ known_third_party = ["hypothesis"]
 known_first_party = ["ape-notebook"]
 multi_line_output = 3
 use_parentheses = true
+
+[tool.mdformat]
+number = true
