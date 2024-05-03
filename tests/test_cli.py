@@ -1,4 +1,5 @@
 """Test the CLI script."""
+
 import unittest
 from unittest.mock import MagicMock, patch
 
