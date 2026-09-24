@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ape-notebook"
-description = "ape-notebook: Ape plugin"
+description = "ape-notebook: Instantiate a Jupyter Notebook"
 readme = "README.md"
 authors = [
     {name = "ApeWorX Ltd.", email = "admin@apeworx.io"}
